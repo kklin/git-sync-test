@@ -1,0 +1,8 @@
+name: Users
+source: postgres
+type: raw_sql
+dbtModel: null
+rawSql: select 1 as id, 'kevin@hightouch.io' as email
+tableName: ''
+isSchema: false
+primaryKey: id
